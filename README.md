@@ -22,7 +22,7 @@ of a few instruments playing single notes
 ```
 
 #### Dockerfile
-I included a Dockerfile with the necessary dependencies it isn't needed but I thought it might
+I included a Dockerfile with the necessary dependencies. It isn't needed but I thought it might
 be more convenient. To build:
 ```
 docker build -t 411-final .
