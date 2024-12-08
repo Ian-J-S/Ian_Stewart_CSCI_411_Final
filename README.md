@@ -16,7 +16,9 @@ sudo apt-get install libsndfile1-dev
 A bash script is provided to generate some notes and run tests.
 It will also compile the .cpp files with make.
 The notes directory also contains some audio files I found online
-of a few instruments playing single notes
+of a few instruments playing single notes. The tests will show the
+expected output and the results from the note detection after the
+FFT is run. 
 ```
 ./test.sh
 ```
