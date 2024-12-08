@@ -1,16 +1,9 @@
 #include <iostream>
 #include <sndfile.h> // For manipulating/reading wav files
 #include <vector>
-#include <complex>   // For operations on complex numbers 
+#include <complex>   // For operations on complex numbers
 #include <map>       // To hold note values and labels
-#include <set>       // Could I use vector here instead?
-
-// #include <cmath>
-// #include <algorithm>
-// #include <limits>
-
-// Approximation of pi for convenience
-// const double PI = 3.14159265358979323846;
+#include <set>
 
 // Define note frequencies for notes in the 4th octave
 const std::map<std::string, double> noteFrequencies = {
