@@ -20,3 +20,14 @@ of a few instruments playing single notes
 ```
 ./test.sh
 ```
+
+#### Dockerfile
+I included a Dockerfile with the necessary dependencies it isn't needed but I thought it might
+be more convenient. To build:
+```
+docker build -t 411-final .
+```
+and to automatically compile and run the tests:
+```
+docker run -v "$(pwd)":/usr/src -it --rm 411-final
+```
