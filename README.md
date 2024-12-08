@@ -1,8 +1,6 @@
 # CSCI-411 Final Project
 ## Cooley-Tukey algorithm for FFT
 
----
-
 #### Dependencies
 The only dependency is libsnfile. The following command will install
 libsndfile via apt.
@@ -17,6 +15,8 @@ sudo apt-get install libsndfile1-dev
 #### Tests
 A bash script is provided to generate some notes and run tests.
 It will also compile the .cpp files with make.
+The notes directory also contains some audio files I found online
+of a few instruments playing single notes
 ```
 ./test.sh
 ```
