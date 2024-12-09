@@ -59,7 +59,7 @@ void fft(std::vector<std::complex<double>> &data) {
     fft(odd);
 
     // Combine the data back together using twiddle factor
-    for (int k = 0; k < N / 2; k++) { // why is it N / 2 ?
+    for (int k = 0; k < N / 2; k++) {
         // Twiddle factor t = e ^ (2 * pi * k) / N
         std::complex<double> t = exp(std::complex<double>(0, -2 * M_PI * k / N)) * odd[k];
         data[k] = even[k] + t;
